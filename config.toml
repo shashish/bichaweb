@@ -1,0 +1,47 @@
+baseURL = "https://example.com"
+defaultContentLanguage = "en"
+disqusShortname = "test"
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+theme = "simplicity"
+title = "Bicha Group"
+[author]
+  gravatarEmail = "test@example.com"
+  homepageText = "Bicha Group"
+  name = "Bicha Group"
+  rss = "/posts/index.xml"
+[imaging]
+  anchor = "smart"
+  resampleFilter = "box"
+  quality = 75
+[[menu.pages]]
+  name = "Projects"
+  weight = -100
+  identifier = "projects"
+  url = "/projects/"
+[[menu.pages]]
+  name = "Photos"
+  weight = -90
+  identifier = "photos"
+  url = "/photos/"
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+[params]
+  adsenseClient = ''
+  adsenseSlot = ''
+  description = "An official website of Bicha Group."
+  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+  displayPostLanguage = true
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
